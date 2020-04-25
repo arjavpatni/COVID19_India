@@ -1,7 +1,8 @@
-package com.example.covid19_india
+package com.example.covid19_india.View
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.covid19_india.R
 
 class MainActivity : AppCompatActivity() {
 
