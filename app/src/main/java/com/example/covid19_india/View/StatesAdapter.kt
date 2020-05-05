@@ -10,7 +10,7 @@ import com.example.covid19_india.Model.States
 import com.example.covid19_india.R
 import kotlinx.android.synthetic.main.activity_main.view.*
 
-abstract class StatesAdapter(val context: Context, var data: MutableList<States>): RecyclerView.Adapter<StatesAdapter.StatesViewHolder>() {
+class StatesAdapter(val context: Context, var data: MutableList<States>): RecyclerView.Adapter<StatesAdapter.StatesViewHolder>() {
 
     class StatesViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         val name = itemView.findViewById<TextView>(R.id.name)
